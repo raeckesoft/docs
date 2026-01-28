@@ -2,19 +2,16 @@
 <pre class="log">
 > cds version --markdown
 
-| your-project           | &lt;Add your repository here&gt;              |
+| your-project           | https://github.com/&lt;your/repo&gt;          |
 | ---------------------- | --------------------------------------- |
-| @cap-js/asyncapi       | 1.0.2                                   |
-| @cap-js/cds-types      | 0.8.0                                   |
-| @cap-js/db-service     | 1.16.1                                  |
-| @cap-js/openapi        | 1.1.1                                   |
-| @cap-js/sqlite         | 1.7.8                                   |
-| @sap/cds               | 8.6.0                                   |
-| @sap/cds-compiler      | 5.6.0                                   |
-| @sap/cds-dk (global)   | 8.6.1                                   |
-| @sap/cds-fiori         | 1.2.8                                   |
-| @sap/cds-foss          | 5.0.1                                   |
-| @sap/cds-mtxs          | 2.4.2                                   |
-| @sap/eslint-plugin-cds | 3.1.2                                   |
-| Node.js                | v20.18.1                                |
+| @sap/cds               | 9.6.4                                   |
+| @sap/cds-compiler      | 6.6.2                                   |
+| @sap/cds-dk (global)   | 9.6.1                                   |
+| @sap/cds-fiori         | 2.1.1                                   |
+| @sap/cds-mtxs          | 3.6.1                                   |
+| @cap-js/asyncapi       | 1.0.3                                   |
+| @cap-js/db-service     | 2.8.1                                   |
+| @cap-js/openapi        | 1.3.1                                   |
+| @cap-js/sqlite         | 2.1.2                                   |
+| Node.js                | v20.20.0                                |
 </pre>
