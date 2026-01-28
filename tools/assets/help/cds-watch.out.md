@@ -24,6 +24,14 @@
     Specify file extensions to watch for in a comma-separated list.
     <em>Example:</em> cds w --ext cds,json,js.
 
+  <em>--include</em> &lt;paths,...&gt;
+
+    Comma-separated list of additional paths to watch.
+
+  <em>--exclude</em> &lt;paths,...&gt;
+
+    Comma-separated list of additional paths to ignore.
+
   <em>--livereload</em> &lt;port | false&gt;
 
     Specify the port for the livereload server. Defaults to '35729'.
@@ -38,6 +46,11 @@
 
     Specify from which profile(s) the binding information is taken.
     <em>Example:</em> cds w --profile hybrid,production
+
+  <em>--with-mtx</em>
+
+    A shortcut for <i>--profile with-mtx</i> to enable mtx features also in
+    development, while by default, these are only enabled in production.
 
   <em>--debug</em> / <em>--inspect</em> &lt;host:port | 127.0.0.1:9229&gt;
 
